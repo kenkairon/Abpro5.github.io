@@ -48,7 +48,7 @@
                 <label for="staticNombre" class="form-label">Nombre</label>
                 <input type="text" class="form-control" id="nombre" placeholder="Escriba su Nombre" name="name"> 
                 <label for="staticCorreo" class="form-label">Correo</label>
-                <input type="text" class="form-control" id="correo" placeholder="Escriba su correo" name="name">
+                <input type="email" class="form-control" id="correo" placeholder="Escriba su correo" name="name" pattern='^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$' title="Entre un email válido">
                 <label for="subject" class="">Mensaje:</label>
                 <textarea type="text" id="mensaje" name="message" rows="2" class="form-control md-textarea"></textarea></br>      
                 <input type="submit" value="Enviar" name="enviar" class="btn btn-dark"> 
