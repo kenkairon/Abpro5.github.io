@@ -75,6 +75,11 @@ $(document).ready(function (){
 
 });
 */
+$(function(){
+    $(document).bind("contextmenu",function(e){
+        return false;
+    });
+});
 function validacion(){
             var formvalido = true;
 
